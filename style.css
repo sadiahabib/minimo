@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+header{
+    height: 100px; 
+    background:transparent;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+.logo{
+    float: left;
+    padding: 30px ;
+}
+nav{
+    float: right;
+    line-height:  100px; 
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: gray ;
+}
+.banner-area{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top:100px;
+    background-image: url(image/big_img.png);
+    background-size: cover ;
+    background-position: center center;
+}
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: poppins ;
+    text-transform: uppercase;
+    color: #fff ;
+}
+.content-area{
+width: 100%;
+position: relative;
+top: 500px;
+background: white ;
+height: 1500px;
+}
+.content-area h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+.paragraph{
+    width: 100%
+}
+.paragraph h4{
+    font-size: medium;
+    color: gray;
+    text-shadow:  0 2px 7px;
+    text-align: left;
+}
+.paragraph h1{
+    font-size: x-large;
+    color: grey;
+    text-align: left;
+}
+.paragraph p{
+    text-align: justify;
+    color: grey;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.First{
+    border: hidden;
+    padding-top: 50px;
+    float: left;
+    }
+ 
+.First h4{
+    font-size: medium;
+    color: gray;
+    text-shadow:  0 2px 7px;
+    text-align: left;
+}  
+
+.First h1{
+    font-size: x-large;
+    color: grey;
+    text-align: left;
+}
+.First p{
+    text-align: left;
+    text-decoration: none;
+}
+
+.Second{
+border: hidden;
+padding-top: 50px;
+float: right;
+    }
+.Second h4{
+font-size: medium;
+ color: gray;
+text-shadow:  0 2px 7px;
+text-align: left;
+    }  
+    
+.Second h1{
+font-size: x-large;
+color: grey;
+text-align: left;
+    }   
+
+.Second  p{
+        text-align: left;
+        text-decoration: none;
+    }
+.Third {
+border: hidden;
+padding-top: 50px;
+float: left;
+}
+.Third h4{
+font-size: medium;
+color: gray;
+text-shadow:  0 2px 7px;
+text-align: left;
+        }  
+        
+.Third h1{
+font-size: x-large;
+color: grey;
+text-align: left;
+        } 
+  .Third  p{
+            text-align: left;
+            text-decoration: none;
+        }       
+.Fourth {
+border: hidden;
+padding-top: 50px;
+float: right;
+    }
+.Fourth h4{
+font-size: medium;
+color: gray;
+text-shadow:  0 2px 7px;
+text-align: left;
+}  
+                    
+.Fourth h1{
+font-size: x-large;
+color: grey;
+ text-align: left;
+ }  
+  .Fourth  p{
+    text-align: left;
+    text-decoration: none;
+}           
+ .sign_up{
+   padding: 40px;
+    margin-top: 1000px;
+    min-height: 100px;
+    background-color: #F0F0F0;
+    text-align: center;
+    
+}
+.sign_up h1{
+    color: grey;
+}
+.Fifth {
+    border: hidden;
+    padding-top: 50px;
+    float: left;
+        }
+    .Fifth h4{
+    font-size: medium;
+    color: gray;
+    text-shadow:  0 2px 7px;
+    text-align: left;
+    }  
+                        
+    .Fifth h1{
+    font-size: x-large;
+    color: grey;
+     text-align: left;
+     }  
+
+     .Fifth  p{
+        text-align: left;
+        text-decoration: none;
+    }
+     .Sixth {
+        border: hidden;
+        padding-top: 50px;
+        float: right;
+            }
+        .Sixth h4{
+        font-size: medium;
+        color: gray;
+        text-shadow:  0 2px 7px;
+        text-align: left;
+        }  
+                            
+        .Sixth h1{
+        font-size: x-large;
+        color: grey;
+         text-align: left;
+         }  
+         .Sixth  p{
+            text-align: left;
+            text-decoration: none;
+        }
+         .load_more{
+            text-align: center;
+            min-height: 100px;
+            margin-top: 100%;
+            border: 1px solid;
+            padding: 13px 43px;
+            color: gray;
+            font-weight: 500;
+            text-decoration: none;
+            text-shadow: 0 2px 7px;
+            
+            
+        }        
